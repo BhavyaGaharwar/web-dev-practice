@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 5</title>
+</head>
+<body>
+    <h1 class="center-text">Student Registration Form</h1>
+    <!--Registration Form-->
+    <form method="post" action="submit.html">
+        <p>
+            <label>Full Name:</label>
+            <input type="text" name="fullname" placeholder="Enter your full name" required>
+        </p>
+         <!--Email with validation-->
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Enter valid email address" required>
+        </p>
+        <!--Password-->
+        <p>
+            <label>Password:</label>
+            <input type="Password" name="password" placeholder="Enter your password" required>
+        </p>
+        <!--Gender-->
+        <p>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male" required> male
+            <input type="radio" name="gender" value="Female" required> female
+            <input type="radio" name="gender" value="Other" required> other
+        <!--Course-->
+        <p>
+            <label>Course:</label>
+            <select name="course" required>
+                <option value="select course" selected></option>
+                <option value="Btech">Btech</option>
+                <option value="Mtech">Mtech</option>
+                <option value="Bsc">Bsc</option>
+            </select>
+        </p>
+        <!--Contact Number-->
+        <p>
+            <label>Contact Number:</label>
+            <input type="tell" id="Contact Number" name="Contact Number" placeholder="Enter phone number" required>
+        </p>
+        <!--Address-->
+        <p>
+            <label>Address:</label>
+            <input  type="Address" name="Address" placeholder="Enter your address" rows="4" cola="50">
+        </p>
+        <!--Submit and Reset-->
+        <p>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+        </p>
+    </form>
+
+    <hr>
+    <p class="center-text">2025 Student Registration Form</p>
+</body>
+</html>
