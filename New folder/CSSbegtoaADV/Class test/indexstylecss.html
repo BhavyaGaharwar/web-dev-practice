@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class text,css style</title>
+    <style>
+        /*Product Styling*/
+        body{
+            font-family:Arial,sans-serif;
+            background-color:white;
+            text-align:center;
+            margin:20px;
+        }
+        /*Heading Styling*/
+        h1{
+            color:black;
+            text-align:center;
+            margin-bottom:30px;
+        }
+        /*Product Box Styling*/
+        .product-box{
+            background-color:burlywood;
+            width:300px;
+            margin: 0 auto;
+            padding:20px;
+            border:2px solid gray;
+            border-radius:8px;
+        }
+        /*Product Image Styling*/
+        .product-box img{
+            width:100%;
+            height:auto;
+            border-radius:5px;
+        }
+        /*Product Title*/
+        .product-box h2{
+            color:purple;
+            font-size:15px;
+            margin:10px;
+        }
+        /*Product Description*/
+        .description{
+            color:green;
+            font-size:13px;
+            margin:10px 0;
+        }
+        /*Product Price*/
+        .price{
+            color:red;
+            font-weight:bold;
+            margin-bottom:15px;
+        }
+        /*Button Styling*/
+        button{
+            background-color:blue;
+            color:white;
+            padding:10px 20px;
+            border:none;
+            border-radius:5px;
+        }
+        /*Button hover effect*/
+        button:hover{
+            background-color:darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>My E-Commerce Store</h1>
+    <!---Product Section-->
+    <div class="product-box">
+        <!---Product Image-->
+        <img src="laptop.jpg" alt="product image">
+        <!---Product Details-->
+        <h2>Dell Laptop</h2>
+        <p class="Description">Latest Dell Inspiron 15.6 HD Laptop</p>
+        <p class="Price"> Price:65000</p>
+        <button>Add To Cart</button>
+    </div>   
+</body>
+</html>

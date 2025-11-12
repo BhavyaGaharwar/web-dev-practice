@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 6,stle css</title>
+    <style>
+        /*Body Styling*/
+        body 
+        {
+            font-family: Arial, sans-serif;   /*Font style*/
+            background-color:beige;        /*page bg color
+            text-align: center;              /*center text on page*/
+            margin: 20px;                    /*space around body*/
+        }
+        /*Heading Styling*/
+        h1
+        {
+            color:red; 
+            text-align: center;            /*text color*/
+            margin-bottom: 20px;     /*space below heading*/
+        }
+        /*Product Box Styling*/
+        .product-box
+        {
+            background-color:yellow;
+            width:300px;     /*box width*/
+            margin: 0 auto;   /*center the box horizontally*/
+            /*when you write margin:auto,the browser automatically calculates equal left and right spaces-
+            this pushes element to the center horizontally*/
+            padding:15px;           /*inner space inside box*/
+            border:2px solid gray;          /*border around box*/
+            border-radius:8px;                /*round corners*/
+        }
+        /*Product Image Styling*/
+        .product-box img
+        {
+            width:100%;      /*image takes full box width*/
+            height:auto;     /*keep image proportion*/
+            border-radius:5px;      /*slightly rounded img corner*/
+        }
+        /*Product Title*/
+        .product-box h2
+        {
+            color:black;       /*text color*/
+            font-size:20px:      /*font size*/
+            margin-top:10px;     /*space above title*/
+        }
+        /*Product Description*/
+        .description
+        {
+            color:white;        /*aqua text*/
+            font-size:15px;      /*small readable text*/
+            margin:10px 0;       /*space above and below*/
+        }
+        /*Product Price*/
+        .price
+        {
+            color:red;
+            font-weight:bold;    /*bold text*/
+            margin-bottom:15px;    /*space below price*/
+        }
+        /*Button Styling*/
+        button
+        {
+            background-color:blue;      /*blue button*/
+            color:white;                /*white text*/
+            padding:10px 20px;            /*inner space(top-bottom,left-right)*/
+            border:none;                  /*no border*/
+            border-radius:5px;            /*rounded button corners*/
+        }
+    </style>
+ </head> 
+ <body>
+    <h1>My E-commerce Store</h1>
+    <!---Product Section-->
+    <div class="product-box">
+       <!---Product Image-->
+       <img src="new-admin-ajax.jpeg" alt="product image">
+       <!---Product Details-->
+       <h2>Stylish T-shirts</h2>
+       <p class="Description"> A comfortable cotton t-shirt</p>
+       <p class="Price"> Price: 400</p>
+       <button>Add To Cart</button>
+    </div>
+ </body>  
+</html>
