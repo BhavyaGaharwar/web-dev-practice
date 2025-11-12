@@ -1,0 +1,15 @@
+/*Product Box Styling*/
+.product-box{
+    background-color:white; /*White Background
+    width: 300px;             /*Box-width
+    margin: 0 auto;           
+    padding: 15px;
+    border: 2px solid gray;  /*Border around
+    border-radius: 8px;
+}
+    /*Product Styling*/
+    .product-box img{
+        width:100%;
+        height:auto;
+        borer-radius:
+    }
