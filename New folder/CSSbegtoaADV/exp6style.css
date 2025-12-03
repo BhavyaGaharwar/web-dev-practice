@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experiment 6,stle css</title>
-    <style>
+<style>
         /*Body Styling*/
         body 
         {
@@ -70,18 +64,3 @@
             border-radius:5px;            /*rounded button corners*/
         }
     </style>
- </head> 
- <body>
-    <h1>My E-commerce Store</h1>
-    <!---Product Section-->
-    <div class="product-box">
-       <!---Product Image-->
-       <img src="new-admin-ajax.jpeg" alt="product image">
-       <!---Product Details-->
-       <h2>Stylish T-shirts</h2>
-       <p class="Description"> A comfortable cotton t-shirt</p>
-       <p class="Price"> Price: 400</p>
-       <button>Add To Cart</button>
-    </div>
- </body>  
-</html>
