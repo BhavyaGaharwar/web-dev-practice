@@ -1,0 +1,143 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+        }
+body {
+        background-color: #f4f6f8;
+        color: black;
+        line-height: 1.6;
+    }
+
+header {
+        background: black;
+        color: #fff;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+.logo {
+    color: purple;
+}
+
+nav a {
+    color: #ccc;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+section {
+        padding: 50px 20px;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+section h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 2rem;
+        color: rgb(246, 154, 246);
+    }
+
+.about {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+    }
+
+.about img {
+        width: 200px;
+        border-radius: 50%;
+        border: rgb(234, 131, 234);
+    }
+
+.about-text h1 span{
+        flex: 1;
+    }
+    
+.skills {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 20px;
+    }
+
+.skill-card {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+.skill-card h3 {
+        margin-bottom: 10px;
+        color: #2a5298;
+    }
+
+.projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
+
+.project-card {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+.project-card h3 {
+        margin-bottom: 10px;
+        color: #1e3c72;
+    }
+
+.project-card p {
+        font-size: 0.95rem;
+    }
+
+    /* Contact */
+.contact {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+        background: #222;
+        color: #fff;
+        text-align: center;
+        padding: 15px 10px;
+        margin-top: 40px;
+    }
+
+@media (max-width: 768px) {
+    .about {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
